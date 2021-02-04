@@ -1,24 +1,20 @@
-# README
+FreeDoc
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Versions
+    
+    rails: 6.1.1
 
-Things you may want to cover:
 
-* Ruby version
+Nous trouvons sur ce fichier une base de données avec de fausses données, qui utilise le système N to N, avec l'utilisation des belongs_to et has_many through
 
-* System dependencies
 
-* Configuration
+Nous avons 3 tables 'Patient', 'Doctor', et 'Appointment'
 
-* Database creation
+Que faire en ouvrant le dossier?
 
-* Database initialization
+   1- $bundle install
+   2- $rails db:migrate
+   3- $rails db:seed
+   4- $rails c
 
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+Enjoy!!
